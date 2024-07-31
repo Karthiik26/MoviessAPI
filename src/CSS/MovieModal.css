@@ -1,0 +1,68 @@
+.Moviemodal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 900px;
+    height: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .Moviemodal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+  }
+
+  .Moviemodal-close{
+    background: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  .MovieModal-Container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .Moviemodal-image img{
+    width: 400px;
+    height: 550px;
+  }
+
+  .Moviemodal-Title {
+    font-size: 24px;
+    margin-top: 50px;
+    font-weight: bolder;
+  }
+
+  .Moviemodal-Description {
+    margin: 25px 0;
+    font-size: 19px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+  }
+  
+  .Moviemodal-Release {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .Moviemodal-Rating {
+    margin: 10px 0;
+    font-weight: 400;
+  }

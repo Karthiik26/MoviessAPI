@@ -1,0 +1,29 @@
+.Movie-Loop {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
+.App {
+    padding: 10px;
+    text-align: center;
+}
+
+.App h1 {
+    padding: 0;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.Search_movie {
+    width: 90vh;
+    padding: 10px 14px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
